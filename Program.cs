@@ -1,19 +1,9 @@
 ﻿using System;
 
-namespace Functies.py
+namespace scopes
 {
-    class Program
+    internal class ass
     {
-        static void Main(string[] args)
-        {
-            def add(getal1, getal2):
-             print(getal1+getal2)
-
-                add(4, 8)
-
-
-
-
-        }
+        string poop = "stinky";
     }
 }
