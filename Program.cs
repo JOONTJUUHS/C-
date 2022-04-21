@@ -1,9 +1,27 @@
 ﻿using System;
+using minecraft;
 
-namespace scopes
+namespace Les05NameSpaces
 {
-    internal class ass
+    internal class Program
     {
-        string poop = "stinky";
+        static void Main(string[] args)
+        {
+            dirt = new();
+            grass.EmptyClip();
+        }
+    }
+
+}
+
+namespace minecraft
+{
+    public class dirt
+    {
+        public void EmptyClip()
+        {
+            string dirt = "Everybody love Minecraft";
+            Console.WriteLine(mineminemine);
+        }
     }
 }
